@@ -1,11 +1,11 @@
-*Ana Moedas - Conversor de Moedas*
+## Ana Moedas - Conversor de Moedas
 
 Plataforma acadêmica de conversão de câmbio em tempo real, desenvolvida em React Native com arquitetura MVVM.
----
-*Sobre o Projeto*
+
+## Sobre o Projeto
 
 O Ana Moedas é um aplicativo moderno voltado para consultas rápidas e precisas de taxas de câmbio. O sistema consome dados atualizados diretamente da API pública Frankfurter, garantindo confiabilidade nas cotações e uma experiência de usuário fluida.   
----
+
 ## Tecnologias Utilizadas
 
 O projeto foi construído empregando as seguintes ferramentas e padrões de mercado:
@@ -14,21 +14,21 @@ React Native / Expo (Framework principal em JavaScript),
 Arquitetura MVVM (Model-View-ViewModel),   
 Frankfurter API (Fonte de dados de câmbio),   
 React Native Picker (Componente interativo de seleção de moedas),   
----
+
 ## Arquitetura e Estrutura de Pastas
 
 Seguindo estritamente os padrões de separação de responsabilidades do padrão MVVM, o projeto está organizado da seguinte forma:
 
-PlaintextConversorMoedasLimpo/
-├── assets/
-│   └── logo.png              # Logotipo oficial do aplicativo
-├── src/
-│   ├── models/               # Camada de dados e requisições à API
-│   ├── viewmodels/           # Regras de negócio, estados e validações
-│   └── views/                # Componentes de interface do usuário (UI)
-├── App.js                    # Ponto de entrada da aplicação
-└── package.json              # Gerenciador de dependências
----
+    ConversorMoedasLimpo/
+    ├── assets/
+    │   └── logo.png
+    ├── src/
+    │   ├── models/
+    │   ├── viewmodels/
+    │   └── views/
+    ├── App.js
+    └── package.json
+
 ## Funcionalidades Principais
 
 Cotação em Tempo Real: 
@@ -56,11 +56,11 @@ git clone https://github.com/c44rolina/ana-moedas.git
 cd ana-moedas
 
 3. Instalar as dependências
-Bashnpm install
+hnpm install
 
 4. Iniciar a aplicaçãoBashnpx expo start
 (Pressione w no terminal para abrir diretamente no navegador ou utilize o aplicativo Expo Go no seu smartphone via QR Code).
----
+
 ## Capturas de Tela
 demonstrando o aplicativo em funcionamento)
 
@@ -75,8 +75,6 @@ Teste funcional
 Tratamento de erros
 
 ![erro](assets/image2.png)
-
----
 
 ## Autoria
 Nome: Ana Carolina   
