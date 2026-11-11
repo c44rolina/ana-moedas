@@ -1,8 +1,8 @@
-**Ana Moedas - Conversor de Moedas**
+*Ana Moedas - Conversor de Moedas*
 Plataforma acadêmica de conversão de câmbio em tempo real, desenvolvida em React Native com arquitetura MVVM.
 ---
 **Sobre o Projeto**
-
+--
 O Ana Moedas é um aplicativo moderno voltado para consultas rápidas e precisas de taxas de câmbio. O sistema consome dados atualizados diretamente da API pública Frankfurter, garantindo confiabilidade nas cotações e uma experiência de usuário fluida.   
 ---
 **Tecnologias Utilizadas**
