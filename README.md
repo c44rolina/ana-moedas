@@ -1,4 +1,5 @@
 *Ana Moedas - Conversor de Moedas*
+---
 Plataforma acadêmica de conversão de câmbio em tempo real, desenvolvida em React Native com arquitetura MVVM.
 ---
 **Sobre o Projeto**
