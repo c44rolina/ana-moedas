@@ -56,13 +56,13 @@ git clone https://github.com/c44rolina/ana-moedas.git
 cd ana-moedas
 
 3. Instalar as dependências
-hnpm install
+ npm install
 
 4. Iniciar a aplicaçãoBashnpx expo start
 (Pressione w no terminal para abrir diretamente no navegador ou utilize o aplicativo Expo Go no seu smartphone via QR Code).
 
 ## Capturas de Tela
-demonstrando o aplicativo em funcionamento)
+demonstrando o aplicativo em funcionamento
 
 Tela Principal
 
