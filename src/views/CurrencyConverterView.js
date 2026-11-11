@@ -30,13 +30,14 @@ export default function CurrencyConverterView({
 
   return (
     <View style={styles.mainContainer}>
-     
+    
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Ana Moedas</Text>
+        <Text style={styles.headerTitle}>CONVERSOR DE MOEDAS</Text>
       </View>
 
+
       <ScrollView contentContainerStyle={styles.scrollContainer}>
-       
+        {/* Logo */}
         <Image 
           source={require('../../assets/logo.png')} 
           style={styles.logo} 
@@ -55,8 +56,9 @@ export default function CurrencyConverterView({
           />
 
           <View style={styles.rowContainer}>
+          
             <View style={styles.columnItem}>
-              <Text style={styles.label}>Selecionar a primeira moeda:</Text>
+              <Text style={styles.label}>Selecione a moeda de origem:</Text>
               <View style={styles.pickerContainer}>
                 <Picker
                   selectedValue={sourceCurrency}
@@ -75,12 +77,14 @@ export default function CurrencyConverterView({
               </View>
             </View>
 
+            
             <TouchableOpacity style={styles.swapButton} onPress={onSwapCurrencies}>
-              <Text style={styles.swapButtonText}>⇅</Text>
+              <Text style={styles.swapButtonText}>⇄</Text>
             </TouchableOpacity>
 
+            
             <View style={styles.columnItem}>
-              <Text style={styles.label}>Selecionar a segunda moeda:</Text>
+              <Text style={styles.label}>Selecione a moeda de destino:</Text>
               <View style={styles.pickerContainer}>
                 <Picker
                   selectedValue={targetCurrency}
@@ -108,7 +112,7 @@ export default function CurrencyConverterView({
             {loading ? (
               <ActivityIndicator color="#fff" />
             ) : (
-              <Text style={styles.buttonText}>Converter</Text>
+              <Text style={styles.buttonText}>Converta</Text>
             )}
           </TouchableOpacity>
         </View>
@@ -126,7 +130,7 @@ export default function CurrencyConverterView({
           </View>
         )}
 
-        {/* Rodapé */}
+      
         <View style={styles.footerContainer}>
           <Text style={styles.footerText}>
             Ana Moedas é uma plataforma acadêmica desenvolvida para consultas de taxas de câmbio em tempo real com alta precisão, arquitetura MVVM e total segurança de dados.
@@ -165,8 +169,8 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   logo: {
-    width: 140,
-    height: 140,
+    width: 180,
+    height: 180,
     marginBottom: 15,
     marginTop: 5,
   },
@@ -231,11 +235,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginHorizontal: 8,
-    marginTop: 25,
+    marginTop: 30, 
   },
   swapButtonText: {
     color: '#fff',
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: 'bold',
   },
   button: {

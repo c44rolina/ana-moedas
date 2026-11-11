@@ -1,67 +1,81 @@
-Ana Moedas - Conversor de Moedas
-O Ana Moedas é um aplicativo móvel desenvolvido em React Native (com suporte web/Expo) que realiza a conversão de moedas em tempo real utilizando a API pública Frankfurter. O projeto foi construído seguindo rigorosamente os padrões de arquitetura limpa, separação de responsabilidades e o padrão MVVM (Model-View-ViewModel).
+**Ana Moedas - Conversor de Moedas**
+Plataforma acadêmica de conversão de câmbio em tempo real, desenvolvida em React Native com arquitetura MVVM.
+---
+**Sobre o Projeto**
 
-Tecnologias e Ferramentas Utilizadas
-React Native / Expo (JavaScript)
+O Ana Moedas é um aplicativo moderno voltado para consultas rápidas e precisas de taxas de câmbio. O sistema consome dados atualizados diretamente da API pública Frankfurter, garantindo confiabilidade nas cotações e uma experiência de usuário fluida.   
+---
+**Tecnologias Utilizadas**
 
-MVVM Architecture (Separação entre Model, View e ViewModel)
+O projeto foi construído empregando as seguintes ferramentas e padrões de mercado:
 
-Frankfurter API (Dados de câmbio atualizados)
+React Native / Expo (Framework principal em JavaScript),  
+Arquitetura MVVM (Model-View-ViewModel),   
+Frankfurter API (Fonte de dados de câmbio),   
+React Native Picker (Componente interativo de seleção de moedas),   
+---
+**Arquitetura e Estrutura de Pastas**
 
-React Native Picker (Seleção interativa de moedas)
+Seguindo estritamente os padrões de separação de responsabilidades do padrão MVVM, o projeto está organizado da seguinte forma:
 
-Estrutura de Pastas (MVVM)
-O projeto está organizado de forma modular e limpa para garantir a manutenibilidade:
-ConversorMoedasLimpo/
+PlaintextConversorMoedasLimpo/
 ├── assets/
-│   └── logo.jpg          # Logo personalizada do aplicativo
+│   └── logo.png              # Logotipo oficial do aplicativo
 ├── src/
-│   ├── models/           # Lógica de requisição à API e manipulação de dados
-│   ├── viewmodels/       # Gerenciamento de estado, regras de negócio e validações
-│   └── views/            # Componentes de interface do usuário (UI)
-├── App.js                # Ponto de entrada da aplicação
-└── package.json          # Dependências do projeto
+│   ├── models/               # Camada de dados e requisições à API
+│   ├── viewmodels/           # Regras de negócio, estados e validações
+│   └── views/                # Componentes de interface do usuário (UI)
+├── App.js                    # Ponto de entrada da aplicação
+└── package.json              # Gerenciador de dependências
+---
+**Funcionalidades Principais**
 
-Funcionalidades Principais
-Conversão em Tempo Real: Consulta taxas de câmbio oficiais atualizadas pela Frankfurter API.
+Cotação em Tempo Real: 
+Consulta instantânea de taxas de câmbio oficiais.   
 
-Seleção Dinâmica: Listagem completa de moedas com códigos e descrições dos países.
+Seleção Dinâmica: Listagem completa de moedas de origem e destino acompanhadas de seus respectivos países e códigos.   
 
-Inversão Rápida: Botão centralizado para inverter de forma ágil a moeda de origem e destino.
+Inversão Ágil: Botão centralizado para inverter instantaneamente a direção da conversão.
 
-Validação de Entrada: Tratamento robusto para valores numéricos e digitação (aceitando ponto/vírgula).
+Validação de Entrada: Tratamento rigoroso de dados numéricos digitados pelo usuário.   
 
-Feedback Visual: Estados de carregamento (ActivityIndicator) e mensagens amigáveis de erro.
+Feedback de Estados: Indicadores visuais de carregamento (ActivityIndicator) e mensagens controladas de erro.   
 
-Identidade Visual: Design personalizado nas cores rosa e branco com cabeçalho em faixa, logo centralizada e rodapé descritivo.
+Identidade Visual: Design exclusivo em tons de rosa e branco, com cabeçalho em barra, logo de destaque e rodapé informativo.
+---
+**Instalação e Execução**
 
-Instruções para Instalar e Executar
-Siga os passos abaixo para rodar o projeto em sua máquina:
+Siga o passo a passo abaixo para rodar o projeto localmente:
 
-Pré-requisitos
-Certifique-se de ter instalado em seu computador:
+1. Pré-requisito 
+Certifique-se de ter instalado em sua máquina:Node.js (versão LTS recomendada)npm ou yarnExpo CLI
 
-Node.js (versão LTS recomendada)
-
-npm ou yarn
-
-Expo CLI (ou rodar via npx)
-
-Passo a passo
-Clone o repositório ou descompacte a pasta do projeto:git clone https://github.com/c44rolina/ana-moedas.git
+2. Clonar o repositório 
+git clone https://github.com/c44rolina/ana-moedas.git
 cd ana-moedas
 
-Instale as dependências do projeto:npm install
+3. Instalar as dependências
+Bashnpm install
 
-Inicie a aplicação (Expo):npx expo start
+4. Iniciar a aplicaçãoBashnpx expo start
+(Pressione w no terminal para abrir diretamente no navegador ou utilize o aplicativo Expo Go no seu smartphone via QR Code).
+---
+**Capturas de Tela**
+demonstrando o aplicativo em funcionamento)
 
-Pressione w para abrir no navegador web, ou utilize o aplicativo Expo Go no seu smartphone escaneando o QR Code gerado no terminal.
+Tela Principal
+![home](assets/image-1.png)
 
-Capturas de Tela do Aplicativo
-![EXIBIR ERRO](image.png)
+Teste funcional
+![Funcionando normalmente](assets/image.png)
 
-![CONVERTENDO](image-1.png)
-Desenvolvedora
-Ana Carolina
+Tratamento de erros
+![erro](assets/image2.png)
 
-Projeto Acadêmico – Desenvolvimento Mobile / Engenharia de Software.
+---
+
+**Autoria**
+Nome: Ana Carolina   
+
+Contexto: projeto desenvolvido para a matéria de Programação para Dispositivos Mobile.   
+
