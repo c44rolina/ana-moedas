@@ -48,7 +48,7 @@ npm ou yarn
 Expo CLI (ou rodar via npx)
 
 Passo a passo
-Clone o repositório ou descompacte a pasta do projeto:git clone https://github.com/seu-usuario/ana-moedas.git
+Clone o repositório ou descompacte a pasta do projeto:git clone https://github.com/c44rolina/ana-moedas.git
 cd ana-moedas
 
 Instale as dependências do projeto:npm install
